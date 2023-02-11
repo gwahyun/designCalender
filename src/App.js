@@ -1,9 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import './index.css';
+import Main from './Main';
+import Calendar from './Calendar';
+import TodoList from './TodoList';
 function App() {
   return (
-    <div className="App" />
+    <div className="App">
+      {/* <Main /> */}
+      <Calendar />
+      {/* <TodoList /> */}
+    </div>
   );
 }
 

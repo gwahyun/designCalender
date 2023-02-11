@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,36 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.vanilla-calendar-day__btn-custom{
+ font-size:5rem;
+ border:1px solid;
+ width:12rem;
+ height:12rem;
+ display:flex;
+ justify-items:flex-start;
+
+}
+
+.calendar__header{
+  backGround-color:black;
+}
+
+.vanilla-calendar-week__day-custom{
+  color:white;
+  width:12rem;
+  backGround-color:black;
+
+}
+.vanilla-calendar-week__day_weekend-custom{
+  color:white;
+}
+
+.vanilla-calendar-week-custom{
+ justify-item:center;
+}
+
+.vanilla-calendar-wrapper-custom{
+  border:1px solid;
 }
